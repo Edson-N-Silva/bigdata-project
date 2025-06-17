@@ -1,6 +1,6 @@
 # 🚦Sistema Inteligente de Prevenção de Acidentes de Trânsito
 
-Este é um sistema desenvolvido com uso do ambiente Jupyter para Python e as suas bibliotecas: Pandas, StramLit, Plotly.Express e Unicodedata com o objetivo de facilitar .
+Este é um sistema desenvolvido em Python e as suas bibliotecas: Pandas, StramLit, Plotly.Express e Unicodedata com o objetivo de facilitar .
 
 ## 📌 Funcionalidades
 
@@ -27,7 +27,6 @@ Siga os passos abaixo para rodar o projeto localmente:
 ### ✅ Pré-requisitos
 
 - Python 3.10.0 +;
-- Ambiente Jupyter configurado no VS Code;
 - Git instalado.
 
 ### 📦 Passos
