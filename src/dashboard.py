@@ -60,7 +60,7 @@ if st.session_state.get("authentication_status"):
     def load_and_process_data():
         """Carrega e processa os dados de acidentes e frota."""
         try:
-            df_acidentes = pd.read_csv("acidentes2025_todas_causas_tipos.csv", sep=';', encoding='latin1', on_bad_lines='skip')
+            df_acidentes = pd.read_csv("https://github.com/Edson-N-Silva/bigdata-project/raw/main/src/acidentes2025_todas_causas_tipos.csv", sep=';', encoding='latin1', on_bad_lines='skip')
         except FileNotFoundError:
             st.error("Arquivo 'acidentes2025_todas_causas_tipos.csv' não encontrado. Verifique o caminho do arquivo.")
             return None
