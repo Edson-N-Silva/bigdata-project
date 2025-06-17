@@ -61,8 +61,9 @@ if st.session_state.get("authentication_status"):
     def load_and_process_data():
         """Carrega e processa os dados de acidentes e frota a partir de URLs do GitHub."""
         
-        # --- ALTERAÇÃO APLICADA AQUI ---
-        # URLs dos arquivos de dados no GitHub.
+        # --- PONTO CRÍTICO PARA DEPLOY NA NUVEM ---
+        # O código agora lê os dados diretamente de URLs públicas no GitHub.
+        # Isto garante que a aplicação funcione em qualquer ambiente (local ou na nuvem).
         URL_ACIDENTES = "https://github.com/Edson-N-Silva/bigdata-project/raw/main/src/acidentes2025_todas_causas_tipos.csv"
         URL_FROTA = "https://github.com/Edson-N-Silva/bigdata-project/raw/main/src/E_Frota_por_UF_Municipio_POTENCIA_Dezembro_2024.xlsx"
         
