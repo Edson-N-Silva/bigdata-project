@@ -56,12 +56,12 @@ python -m venv venv
 
 4. Ative a venv:
 
-Se estiver usando o CMD
+Se estiver usando o CMD:
 ```bash
 .\venv\Scripts\activate.bat
 ```
 
-Se estiver usando o PowerShell
+Se estiver usando o PowerShell:
 ```bash
 .\venv\Scripts\Activate.ps1
 ```
@@ -85,6 +85,7 @@ Após rodar o streamlit a aplicação solicitará um email valido.
 Ao fornecer um email válido você receberá duas URL's de visualização.
 
 Local URL: http://localhost: + uma porta 3000.
+
 Network URL:http://192.168.1.1: + uma porta 3000.
 
 ---
