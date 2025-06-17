@@ -4,7 +4,6 @@ import plotly.express as px
 from sklearn.preprocessing import LabelEncoder
 from xgboost import XGBClassifier
 import unicodedata
-import logging
 
 # Configuração da página
 st.set_page_config(
@@ -16,17 +15,10 @@ st.set_page_config(
 
 @st.cache_data
 def load_and_process_data():
-    """
-    Carrega, limpa e pré-processa os dados de acidentes a partir de um
-    serviço de armazenamento na nuvem (Azure Blob Storage, AWS S3, etc.).
-    """
+    """Carrega e processa os dados de acidentes e frota."""
+    # Carregar dados de acidentes
     try:
-        # --- CARREGAMENTO DE DADOS DA NUVEM (Requisito de Cloud) ---
-        # SUBSTITUA A URL ABAIXO PELA URL DO SEU ARQUIVO NO AZURE
-        DATA_URL = "https://bigdataproject.blob.core.windows.net/bigdata/E_Frota_por_UF_Municipio_POTENCIA_Dezembro_2024.xlsx"
-
-        logging.info("Iniciando carregamento de dados da URL...")
-        df = pd.read_csv(DATA_URL, delimiter=';', encoding='latin1', on_bad_lines='skip')
+        df_acidentes = pd.read_csv("acidentes2025_todas_causas_tipos.csv", sep=';', encoding='latin1', on_bad_lines='skip')
     except FileNotFoundError:
         st.error("Arquivo 'acidentes2025_todas_causas_tipos.csv' não encontrado. Verifique o caminho do arquivo.")
         return None
