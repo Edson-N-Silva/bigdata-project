@@ -65,7 +65,7 @@ if st.session_state.get("authentication_status"):
             st.error("Arquivo 'acidentes2025_todas_causas_tipos.csv' não encontrado. Verifique o caminho do arquivo.")
             return None
         try:
-            df_frota = pd.read_excel("E_Frota_por_UF_Municipio_POTENCIA_Dezembro_2024.xlsx", skiprows=3, header=None)
+            df_frota = pd.read_excel("https://github.com/BrendoGarcia/bigdata-project/raw/main/src/E_Frota_por_UF_Municipio_POTENCIA_Dezembro_2024.xlsx", skiprows=3, header=None)
             df_frota.columns = ['uf', 'municipio', 'total_veiculos', 'potencia']
         except FileNotFoundError:
             st.error("Arquivo 'E_Frota_por_UF_Municipio_POTENCIA_Dezembro_2024.xlsx' não encontrado.")
