@@ -1,0 +1,12 @@
+credentials:
+  usernames:
+    admin:
+      email: usuario@exemplo.com
+      name: admin
+      password: '$2b$12$UUiGIgfwWO7ae5wAx2utjuAks8ElyH./Fx56uhfYWlOqq/8oF8rZC' 
+cookie:
+  expiry_days: 30
+  key: admin_edson
+  name: cookie_de_autenticacao
+preauthorized:
+  emails: []
