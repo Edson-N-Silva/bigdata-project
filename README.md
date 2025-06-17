@@ -16,6 +16,7 @@ Este é um sistema desenvolvido com uso do ambiente Jupyter para Python e as sua
 
 - Ambiente Jupyter configurado no VS Code
 - Python nas versões 3.10.1+
+
 . Bibliotecas:
  - Pandas
  - StreamLit
