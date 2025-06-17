@@ -86,7 +86,7 @@ Ao fornecer um email válido você receberá duas URL's de visualização.
 
 Local URL: http://localhost: + uma porta 3000.
 
-Network URL:http://192.168.1.1: + uma porta 3000.
+Network URL: http://192.168.1.1: + uma porta 3000.
 
 ---
 
