@@ -14,9 +14,23 @@ Este é um sistema desenvolvido em Python e as suas bibliotecas: Pandas, StramLi
 
 ## 🚀 Tecnologias Utilizadas
 
+### ⚙ Linguagem e Plataforma de Nuvem
+
 - Python nas versões 3.10.1+
-- StreamLit
+- Streamlit 1.33.0
 - Google Cloud
+
+### 📚 Bibliotecas e Hash
+
+- pandas 2.2.0
+- numpy 1.26.4
+- scikit-learn 1.4.2
+- xgboost 2.0.3
+- plotly 5.18.0
+- openpyxl 3.1.2
+- streamlit-authenticator
+- python-dotenv
+- bcrypt
 
 ---
 
