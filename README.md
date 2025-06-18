@@ -66,14 +66,19 @@ Se estiver usando o PowerShell:
 ```bash
 pip install -r requirements.txt
 ```
+6. Acesse a pasta do dashboard.py
+  
+```bash
+cd/src
+``` 
 
-6. Rode o arquivo dashboard.py.
+7. Rode o arquivo dashboard.py.
 
 ```bash
 streamlit run dashboard.py
 ```
 
-7. Visualização da dashboard.
+8. Visualização da dashboard.
 
 Após rodar o streamlit a aplicação solicitará um email valido.
 
