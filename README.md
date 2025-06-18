@@ -1,6 +1,6 @@
 # 🚦Sistema Inteligente de Prevenção de Acidentes de Trânsito
 
-Este é um sistema desenvolvido em Python e as suas bibliotecas: Pandas, StramLit, Plotly.Express e Unicodedata com o objetivo de facilitar .
+Este é um sistema desenvolvido em Python e as suas bibliotecas: Pandas, StramLit, Plotly.Express, e Numpy com o objetivo de facilitar .
 
 ## 📌 Funcionalidades
 
